@@ -197,3 +197,22 @@ const total = cart.reduce((accum, item) =>
 
 
 console.log(total)
+
+
+
+
+
+// Object
+
+const user = {
+    name: "Wade",
+    mobile: 0223123232,
+    hometown: "Accra"
+}
+
+
+console.log(Object.values(user))
+console.log(Object.keys(user))
+console.log(Object.entries(user))
+
+

@@ -116,3 +116,6 @@ executes  a reducer function for array element ,returns  a single value, the fun
 Object method
 retrieves an array of direct enumerable property values. It returns a new array object that contains  key/value pairs for each index in the array.
 
+Nullish coalescing operator
+
+is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined and otherwise returns its left-hand side operand
