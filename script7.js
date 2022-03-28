@@ -69,4 +69,36 @@ const newStudents = students.map((student) => {
 })
 
 
+
 console.log(newStudents)
+
+
+const schools = [
+    {
+        name: "UCC",
+        level: "TOP",
+        course: 122
+    },
+    {
+        name: "UG",
+        level: "TOP",
+        course: 112
+    },
+    {
+        name: "UEW",
+        level: "MID",
+        course: 93
+    }
+]
+
+
+const newSchools = schools.map((school) => {
+    schoolList = { ...school }
+
+    schoolList.level === "TOP" ? schoolList.level = true : schoolList.level = false
+
+    return schoolList
+})
+
+
+console.log(newSchools)
