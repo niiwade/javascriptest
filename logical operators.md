@@ -14,7 +14,9 @@
 
   <= Less than or equal to  
 
+  || or 
 
+  && and
   
 
   Conditonal Statements
@@ -92,3 +94,25 @@ for of
 Spread Syntax
 
 Allows an iterable such as an array expression or string to be expanded
+
+Rest Syntax
+
+Allows a function to accept an infinite number of arguments as an array
+
+
+ForEach() methods
+It calls a function for each element in an array.
+
+
+map() method
+It creates a new array from calling a function for every array element, calls a function once for each element in an array. 
+
+filter() method 
+creates new array that creates a new array with all elements  that pass the test implemented by the provided function.
+
+reduce () method
+executes  a reducer function for array element ,returns  a single value, the function accumulated result
+
+Object method
+retrieves an array of direct enumerable property values. It returns a new array object that contains  key/value pairs for each index in the array.
+
