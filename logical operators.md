@@ -107,8 +107,7 @@ It calls a function for each element in an array.
 map() method
 It creates a new array from calling a function for every array element, calls a function once for each element in an array. 
 
-filter() method 
-creates new array that creates a new array with all elements  that pass the test implemented by the provided function.
+filter() method  creates new array that creates a new array with all elements  that pass the test implemented by the provided function.
 
 reduce () method
 executes  a reducer function for array element ,returns  a single value, the function accumulated result
@@ -119,3 +118,16 @@ retrieves an array of direct enumerable property values. It returns a new array 
 Nullish coalescing operator
 
 is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined and otherwise returns its left-hand side operand
+
+
+Optional Chaining Operator
+
+
+
+Destructuring assignment
+it makes it possible to unpack values from arrays or properties from objects into distinct variables
+
+
+
+async await 
+it specifies an asynchronous function which can return an asyncfunction object . This function performs in a seperate order than the rest of the code through the event loop and returns a Promise as its result.
